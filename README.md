@@ -1,12 +1,11 @@
 # Parameter-Optimization-of-SVM
 UCS654 : Predictive Analytics using Statistics
 
-## Written By
-Name : Deepak Aggarwal
+# Name : Deepak Aggarwal
   
-Roll No. : 102003483
+# Roll No. : 102003483
 
-Sub-Group : 3CO19
+# Sub-Group : 3CO19
 
 ## SVM and Parameter Optimization
 
@@ -16,15 +15,12 @@ To improve the accuracy of SVM, important parameters such as kernel, C, and gamm
 
 In this Python file, a fitness function has been implemented to optimize these parameters for SVM.
 
-## Dataset
+## Dataset (Number of Instances: 10129, Number of Attributes: 16)
+
 The project's dataset has been acquired from the UCI Machine Learning Repository.
 [https://archive.ics.uci.edu/ml/datasets/Room+Occupancy+Estimation](https://archive.ics.uci.edu/ml/datasets/Room+Occupancy+Estimation)
 
 The dataset is intended for the purpose of predicting the exact number of people present in a room, utilizing various non-invasive environmental sensors such as temperature, light, sound, CO2, and PIR. This dataset is categorized as a multi-variable classification dataset.
-
-Number of Instances: 10129
-
-Number of Attributes: 16
 
 ## Final Result Table
 
