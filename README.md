@@ -1,15 +1,20 @@
 # Parameter-Optimization-of-SVM
 UCS654 : Predictive Analytics using Statistics
 
+## Written By
+Name : Deepak Aggarwal
+  
+Roll No. : 102003483
+
+Sub-Group : 3CO19
+
 ## SVM and Parameter Optimization
 
-Support Vector Machine or SVM is one of the most popular Supervised Learning algorithms, which is used for Classification as well as Regression problems. However, primarily, it is used for Classification problems in Machine Learning.
+Support Vector Machine (SVM) is a popular algorithm used in supervised learning for both classification and regression problems. SVM is commonly used for classification problems in Machine Learning.
 
-Some of the most important parameters of SVM such as kernel, C, and gamma can be changed in order to achieve a higher accuracy. This is called as Hyperparameter Tuning. 
+To improve the accuracy of SVM, important parameters such as kernel, C, and gamma can be adjusted through a process called hyperparameter tuning. One way to perform hyperparameter tuning is by using GridSearchCV.
 
-We can perform this task using GridSearchCV for optimizing these parameters.
-
-In this python file, I've used a Fitness Function to optimize the parameters.
+In this Python file, a fitness function has been implemented to optimize these parameters for SVM.
 
 ## Dataset
 
@@ -24,30 +29,17 @@ Number of Attributes: 16
 
 ## Final Result Table
 
-| Sample  | Best Accuracy | Best Kernel | Best Nu | Best Epsilon |
-| -----   | ------------- | ----------- | ------- | ------------ |
-| 1 | 0.88 | Poly | 5.82 | 4.35 |
-| 2 | 0.95 | Linear | 5.13 | 0.30 |
-| 3 | 0.96 | Linear | 3.13 | 6.32 |
-| 4 | 0.96 | Poly | 1.49 | 3.26 |
-| 5 | 0.91 | Linear | 3.52 | 7.34 |
-| 6 | 0.83 | RBF | 5.60 | 3.14 |
-| 7 | 0.95 | Poly | 0.29 | 7.71 |
-| 8 | 0.95 | Poly | 4.87 | 5.57 |
-| 9 | 0.97 | Poly | 1.27 | 6.87 |
-| 10 | 0.92 | Poly | 0.34 | 5.50 |
+<img width="524" alt="Result_Table" src="https://user-images.githubusercontent.com/79132054/233189666-07d88181-bbee-4e59-aedf-6a2e11907c47.png">
+
 
 ## Convergence Graph
-![graph](https://user-images.githubusercontent.com/72306997/233000047-3bbc6cf2-8ec0-4276-8519-17da7da2fb25.png)
+
+<img width="900" alt="Convergence_Graph" src="https://user-images.githubusercontent.com/79132054/233189731-c8a1acdd-b6a1-471d-93da-a17e73898c18.png">
+
 
 ## Discussion
 From the above graph, we can conclude that the model is well trained and parameter have been optimized due to the less gap between training and cross-validation curve.
 
 The graph is made for the sample which has best accuracy. Sample 9 has the best accuracy of 0.97 having kernel = Poly, Nu = 1.27 and Epsilon = 6.87.
 
-## Written By
-Name : Deepak Aggarwal
-  
-Roll No. : 102003483
 
-Sub-Group : 3CO19
