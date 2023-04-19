@@ -1,11 +1,11 @@
 # Parameter-Optimization-of-SVM
 UCS654 : Predictive Analytics using Statistics
 
-# Name : Deepak Aggarwal
+## Name : Deepak Aggarwal
   
-# Roll No. : 102003483
+## Roll No. : 102003483
 
-# Sub-Group : 3CO19
+## Sub-Group : 3CO19
 
 ## SVM and Parameter Optimization
 
