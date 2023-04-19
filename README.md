@@ -17,11 +17,10 @@ To improve the accuracy of SVM, important parameters such as kernel, C, and gamm
 In this Python file, a fitness function has been implemented to optimize these parameters for SVM.
 
 ## Dataset
-
-The dataset for the project has been downloaded from the UCI Machine Learning Repository.
+The project's dataset has been acquired from the UCI Machine Learning Repository.
 [https://archive.ics.uci.edu/ml/datasets/Room+Occupancy+Estimation](https://archive.ics.uci.edu/ml/datasets/Room+Occupancy+Estimation)
 
-This dataset is used for estimating the precise number of occupants in a room using multiple non-intrusive environmental sensors like temperature, light, sound, CO2 and PIR. It is a multi-variate classification Dataset.
+The dataset is intended for the purpose of predicting the exact number of people present in a room, utilizing various non-invasive environmental sensors such as temperature, light, sound, CO2, and PIR. This dataset is categorized as a multi-variable classification dataset.
 
 Number of Instances: 10129
 
@@ -38,8 +37,7 @@ Number of Attributes: 16
 
 
 ## Discussion
-From the above graph, we can conclude that the model is well trained and parameter have been optimized due to the less gap between training and cross-validation curve.
+Based on the provided graph, it appears that the model has been effectively trained and the parameters have been optimized, as evidenced by the minimal difference between the training and cross-validation curves.
 
-The graph is made for the sample which has best accuracy. Sample 9 has the best accuracy of 0.97 having kernel = Poly, Nu = 1.27 and Epsilon = 6.87.
-
+Additionally, the graph represents the sample with the highest accuracy, which corresponds to Sample 3 with a 0.97 accuracy score. This sample was achieved using a linear kernel, a nu value of 9.97, and an epsilon value of 6.09.
 
